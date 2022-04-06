@@ -1,0 +1,26 @@
+.info{
+    justify-content: start;
+    &_texto{
+        background-color: $fondo;
+        h1{
+            color: $rojo;
+        }
+        p{
+            color: $cream;
+        }
+        
+    }
+    &_imagen{
+        width: 10vw;
+        &--foto{
+            border-radius: 70px;
+            &:hover{
+                transform: scale(90%);
+                transition: 1s;
+            }
+        }
+    }
+    @media screen and (max-width:768px){
+        flex-direction: column;
+    }
+}

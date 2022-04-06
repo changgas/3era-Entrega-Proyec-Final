@@ -1,0 +1,33 @@
+@import "variables";
+header{
+    background-color: $fondo;
+    padding: auto;
+    h1{
+        color: $cream;
+        width: auto;
+        height: 5rem;
+        margin: 3rem;
+        display: block;
+        text-align: center;
+        font: {
+            size: 60px;
+            style: italic;
+        };
+    }
+    nav{
+        background-color: $cream;
+        div{
+            justify-content: center;
+            color: black;
+        }
+
+        a{
+            color: $oscuro;
+            font-size: 1.5rem;
+            &:hover{
+                background-color: $rojo;
+            }
+        };
+         }
+
+}

@@ -1,0 +1,44 @@
+header {
+  background-color: #30475e;
+  padding: auto; }
+  header h1 {
+    color: #e8e5bc;
+    width: auto;
+    height: 5rem;
+    margin: 3rem;
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    font-style: italic; }
+  header nav {
+    background-color: #e8e5bc; }
+    header nav div {
+      justify-content: center;
+      color: black; }
+    header nav a {
+      color: #3d0000;
+      font-size: 1.5rem; }
+      header nav a:hover {
+        background-color: #f05454; }
+
+.info {
+  justify-content: start; }
+  .info_texto {
+    background-color: #30475e; }
+    .info_texto h1 {
+      color: #f05454; }
+    .info_texto p {
+      color: #e8e5bc; }
+  .info_imagen {
+    width: 10vw; }
+    .info_imagen--foto {
+      border-radius: 70px; }
+      .info_imagen--foto:hover {
+        transform: scale(90%);
+        transition: 1s; }
+  @media screen and (max-width: 768px) {
+    .info {
+      flex-direction: column; } }
+
+body {
+  background-color: #30475e; }
